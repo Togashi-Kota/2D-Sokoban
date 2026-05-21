@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7cd4bcec54675e4aabc462ddeffec2b, type: 3}
+  m_Name: Stage 3
+  m_EditorClassIdentifier: Assembly-CSharp::StageData
+  stageName: Stage 3
+  stageId: 0
+  width: 7
+  height: 7
+  playerStartPos: {x: 3, y: 5}
+  boxStartPositions:
+  - {x: 2, y: 2}
+  - {x: 4, y: 2}
+  - {x: 3, y: 3}
+  tiles: 00000000020000000200000002000000020000000200000000000000020000000200000001000000030000000100000002000000020000000200000001000000010000000300000001000000010000000200000002000000010000000100000003000000010000000100000002000000020000000100000001000000020000000100000001000000020000000200000002000000010000000100000001000000020000000200000000000000020000000200000002000000020000000200000000000000
+  cameraPosition: {x: 3.5, y: 3.5}
+  cameraSize: 5
