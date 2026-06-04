@@ -1,0 +1,11 @@
+# Unity標準パッケージ（TextMesh Pro）
+Assets/TextMesh\ Pro/** linguist-vendored
+
+# 拡張子ベース
+*.shader linguist-vendored
+*.hlsl   linguist-vendored
+*.cginc  linguist-vendored
+*.compute linguist-vendored
+
+# 自作のC#
+*.cs linguist-detectable=true
