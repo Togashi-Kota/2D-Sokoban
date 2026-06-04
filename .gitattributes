@@ -1,11 +1,11 @@
-# Unity標準パッケージ（TextMesh Pro）
-Assets/TextMesh\ Pro/** linguist-vendored
+# Unity標準パッケージ（TextMesh Pro）由来のシェーダー類を言語集計から除外
+Assets/TextMesh?Pro/** linguist-vendored
 
-# 拡張子ベース
+# 拡張子ベースでも保険をかける（自作でないシェーダー類を除外）
 *.shader linguist-vendored
-*.hlsl   linguist-vendored
-*.cginc  linguist-vendored
+*.hlsl linguist-vendored
+*.cginc linguist-vendored
 *.compute linguist-vendored
 
-# 自作のC#
+# 自作のC#は確実に集計対象にする
 *.cs linguist-detectable=true
